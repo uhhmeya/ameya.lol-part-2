@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.form.group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-container {
+    background-color: mediumaquamarine;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.submit-button {
+    font-weight: bold;
+    color: black;
+    background-color: azure;
+}
